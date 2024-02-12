@@ -1,0 +1,7 @@
+<div class="button-container">
+  <button mat-raised-button color="primary" (click)="login()">Login</button>
+  <button mat-raised-button color="accent" (click)="logout()">Logout</button>
+  <a [routerLink]="['/home']">Home</a>
+</div>
+
+<router-outlet></router-outlet>
